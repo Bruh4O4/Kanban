@@ -1,8 +1,24 @@
-/* :root {
-} */
+:root {
+	--color-text: #1e1e1e;
+  --color-muted: #e7f5ff;
+	--color-primary: #a5d8ff;
+  --color-pr-border: #1971c2;
+  --color-danger: #fff5f5;
+	--color-d-border: #e03131;
 
-#root {
+	--fs-sm: 0.9rem;
+	--fs-base: 1rem;
+	--fs-md: 1.2rem;
+	--fs-lg: 1.5rem;
+
+	--fs-h4: 1.5rem;
+  --fs-h3: 2rem;
+	--fs-h2: 2.5rem;
+}
+
+* {
   box-sizing: border-box;
+  font-family: 'Architects Daughter', sans-serif;
 }
 
 body {
